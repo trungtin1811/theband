@@ -1,0 +1,74 @@
+@media only screen and (min-width: 740px) {
+    #mobile-menu {
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 740px) {
+   
+    #header {   
+        overflow: hidden;
+    }
+    #nav {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 40px;
+    }
+    #nav > li { 
+        display: block;
+    }
+    #nav li a { 
+        padding: 1px 24px;
+    }
+
+    .search-btn{
+        display: none;
+        
+    }
+    .col-third {
+        width: 100%;
+        margin: 8px 0;
+    }
+    .col-half {
+        width: 100%;
+        margin: 8px 0;
+    }
+    #nav li a {
+        display: block;
+        width: 100%;
+    }
+
+    
+    
+    .content-container .col img {
+        width: 200px;
+        height: 200px;
+    }
+    .modal-container {
+        min-width: 200px;
+        width: 90%;
+    }
+    .play-buy-byn {
+        width: 100%;
+    }
+    .contact-content {
+        flex-direction: column;
+    }
+    .name-email {
+        flex-direction: column;
+    }
+    .contact-box {
+        margin-left: 0;
+    }
+    .information {
+        margin-bottom: 16px;
+    }
+}
+    
